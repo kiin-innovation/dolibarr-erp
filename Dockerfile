@@ -18,11 +18,11 @@ WORKDIR /var/www/html
 # Copy your modified Dolibarr project into the container
 COPY . /var/www/html/
 
-# Fix permissions
-RUN chown -R www-data:www-data /var/www/html
+# Create custom documents directory and ensure it's writable
+RUN mkdir -p /app/bucket/documents \
+    && chown -R www-data:www-data /app/bucket/documents \
+    && chmod -R 775 /app/bucket/documents
 
-# Ensure conf directory is writable
-RUN chmod -R 775 /var/www/html/conf
 
 
 # Expose HTTP
