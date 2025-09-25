@@ -1,0 +1,242 @@
+# Copyright (C) 2021-2022		John Livingston		<license@john-livingston.fr>
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Affero General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Affero General Public License for more details.
+#
+# You should have received a copy of the GNU Affero General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+Pickup = Pickup
+Pickups = Pickups
+# Module label 'ModulePickupName'
+ModulePickupName = Pickup
+# Module description 'ModulePickupDesc'
+ModulePickupDesc = This module is meant to handle pickups
+
+PickupCard = Pickup
+PickupPdfTitle = Pickup receipt
+PickupSignatureOfExternalContact = Name and signature of donnator
+
+PickupNumRefModelDesc = Return the pickup reference
+PickupStatusProcessing = Processing
+PickupStatusShortProcessing = Processing
+PickupStatusStock = In stock
+PickupStatusShortStock = Stock
+PickupStatusStockBis = Waiting signature
+PickupStatusShortStockBis = Waiting signature
+PickupStatusSigned = Signed
+PickupDate = Pickup date
+PickupType = Pickup type
+
+PICKUP_USE_PICKUP_TYPE = Use «Pickup type» field
+PICKUP_USE_PICKUP_TYPETooltip = If you enable this feature, don't forget to setup the corresponding dictionnary.
+PICKUP_DEFAULT_STOCK = Default stock
+PICKUP_DEFAULT_STOCKTooltip = The stock to use when creating a pickup from the pickup mobile application.
+PICKUP_USE_PCAT = Use product tags
+PICKUP_USE_PCATTooltip = If activated, you can choose some product tags that will be mandatory in the mobile app.
+PICKUP_USE_DEEE = Use French DEEE fields
+PICKUP_USE_DEEETooltip = Will add DEEE and DEEE type files to products.
+PICKUP_IMPORTEXPORT_ALL = Activer les imports/exports avancés
+PICKUP_IMPORTEXPORT_ALLTooltip = En activant cette option, le module permettra d'importer/exporter différents types de données, dont les fiches de produit. Cela ne devrait pas être activé sur un serveur de production, mais uniquement utilisé à des fins de test/démo, ou pour un import initial. Attention: ces imports/exports sont partiels, et ne sont pas à considérer comme fiables pour un environnement de production.
+PICKUP_USE_PBRAND = Use a «brand» field on products
+PICKUP_USE_PBRANDTooltip = Will add a brand field to products (deprecated).
+PICKUP_PRODUCT_REF_AUTO = Les références des produits crées depuis l'application mobile sont générées automatiquement
+PICKUP_PRODUCT_REF_AUTOTooltip = En cochant cette case, l'application mobile ne demandera pas de saisir une référence lors des créations de produits. Celle-ci seront générées en utilisant le modèle de numérotation défini dans l'application Produit. Attention, si vous ne l'avez pas définie, il sera impossible de créer des produits depuis l'application mobile.
+PICKUP_PRODUCT_DEFAULT_TOSELL = Les produits crées depuis l'application mobile sont tous marqués en vente
+PICKUP_USE_PICKUPLINE_DESCRIPTION = Add a «description» field on pickup's lines. If you are still using this feature, please contact the plugin author.
+PICKUP_USE_PICKUPLINE_DESCRIPTION_IN_PDF = Afficher cette description dans les PDF.
+PICKUP_USE_PICKUPLINE_DESCRIPTION_ON_UNIQUE_PL = Copier cette description sur les fiches «Lot» pour les produits avec numéro de série unique.
+PICKUP_USE_PICKUPLINE_DESCRIPTION_ON_UNIQUE_PLTooltip = Activer cette option va ajouter un champ «Commentaire lors de la collecte» sur les fiches «Lot».
+PICKUP_USE_PICKUPLINE_DESCRIPTION_ON_PL = Concaténer cette description sur les fiches «Lot» pour les produits gérés par lot.
+PICKUP_USE_PICKUPLINE_DESCRIPTION_ON_PLTooltip = Cette option ne fonctionne correctement que si la précédente est également activée. Les notes seront ajoutées au «Commentaire lors de la Collecte», en précisant le numéro de collecte.
+PICKUP_NO_SIGN_STATUS = Disable «signed» state
+PICKUP_SEND_MAIL = Activate «Send Email» feature
+PICKUP_SEND_MAILTooltip = This will change the pickup receipt filenames (to be compatible with Dolibarr).
+PICKUP_UPDATE_EXTRAFIELDS = Reset extra fields
+PICKUP_UPDATE_EXTRAFIELDS_Tooltip = If you accidentaly modified extrafields parameters, you can reinit them by clicking on this button.
+PICKUP_MIGRATE_EXTRAFIELDS = Migrate old LRDS fields
+PICKUP_MIGRATE_EXTRAFIELDS_Tooltip = Il semblerait que vous utilisez encore les anciens champs LRDS et que ceux-ci n'ont pas été migré. Cliquez ici pour les migrer. Vous pourrez ensuite les supprimer.
+PICKUP_MIGRATE_PBRAND_TO_REF = Migrer le champ Marque vers la Ref produit
+PICKUP_MIGRATE_PBRAND_TO_REF_Tooltip = En cliquant sur ce bouton, le champs marque va être inclu en préfixe des références produit. Vous pourrez ensuite le supprimer.
+PICKUP_DEFAULT_HASBATCH_OPTIONS_0 = Les produits crées depuis l'application mobile non pas de numéro de lot/série.
+PICKUP_DEFAULT_HASBATCH_OPTIONS_ask = Demander dans l'appli mobile.
+PICKUP_DEFAULT_HASBATCH_OPTIONS_1 = Les produits créés depuis l'application mobile utilisent des numéros de lot.
+PICKUP_DEFAULT_HASBATCH_OPTIONS_2 = Les produits créés depuis l'application mobile utilisent des numéros de série uniques.
+PICKUP_DEFAULT_BATCH = Valeur par défaut pour les numéros de lot
+PICKUP_DEFAULT_BATCH_OPTIONS_PICKUP_REF = Utiliser la référence de la collecte
+PICKUP_DEFAULT_BATCH_OPTIONS_GENERATE = Générer un numéro par ligne
+PICKUP_DEFAULT_BATCH_OPTIONS_GENERATEPPRODUCT = Générer un numéro par produit
+PICKUP_DEFAULT_UNIQUE_BATCH = Valeur par défaut pour les numéros de série uniques
+PICKUP_DEFAULT_UNIQUE_BATCH_OPTIONS_GENERATE = Générer un numéro unique
+PICKUP_ALLOW_FUTURE = Allow creation of pickups in the future.
+PICKUP_ALLOW_FUTURETooltip = This parameter does not apply to the mobile application.
+PICKUP_UNITS_EDIT_MODE = Input
+PICKUP_UNITS_EDIT_MODE_OPTIONS_0 = Values are entered on the product card
+PICKUP_UNITS_EDIT_MODE_OPTIONS_pickupline = Values are entered on the pickup card
+PICKUP_USE_PRINTABLE_LABEL = Utiliser l'impression d'étiquettes
+PICKUP_USE_PRINTABLE_LABELTooltip = En activant cette option, le module de collecte vous proposera d'imprimer des étiquettes pouvant contenir un code-barre 2D pointant vers la fiche produit, un code-barre pour le numéro de lot/série, divers informations sur le produit, etc...
+PICKUP_PRINTABLE_LABEL_PRODUCTCARD_LINK = Lien vers la fiche produit
+PICKUP_PRINTABLE_LABEL_BATCH = Numéro de lot/série
+
+
+PICKUP_UNITS_WIDTHTooltip = Attention, ne fonctionne que si vous choisissez que la saisie des valeurs se fait sur la fiche produit.
+PICKUP_UNITS_HEIGHTTooltip = Attention, ne fonctionne que si vous choisissez que la saisie des valeurs se fait sur la fiche produit.
+
+PICKUP_PRODUCT_SELLPRICE = Ajouter un champ "prix de vente" dans l'application mobile.
+PICKUP_PRODUCT_RENTALPRICE = Ajouter un champs "prix de location" dans l'application mobile.
+
+#
+# Menus
+#
+PickupMenuList = Pickups list
+PickupMenuTags = Configure tags
+PickupMenuHelp = Help
+PickupNew = New pickup
+PickupMenuReports = Reports
+PickupMenuSocReports = Reports by third party
+PickupMenuCorrectData = Correction des données
+PickupMenuCorrectDataProductStatusBatch = Produits géré par Lot/Série
+PickupMenuCorrectDataBatchNumber = Numéros de Lot/Série manquants
+PickupMenuImportExport = Import / Export
+
+PickupMenuLabelSearch = Par étiquette
+
+#
+# Admin page
+#
+PickupSetup = Pickup setup
+Settings = Settings
+PickupSetupPage = Pickup setup page
+PickupSetupLineDescription = Champs «description» sur les lignes des bons de Collecte.
+PickupSetupUnits = Units
+PickupSetupBatch = Lot/Serial
+PickupSetupPrintableLabel = Impression d'étiquettes
+
+#
+# About page
+#
+About = About
+PickupAbout = About Pickup
+PickupAboutPage = Pickup about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+#
+# For Mobile
+# 
+PickupMobileApp = Mobile app
+MobileCats = Mobile pickup categories
+MobileCatDEEEConstraint = Permet de contraindre les types DEEE pour les produits créés depuis l'appli mobile.
+MobileCatBatchConstraint = Permet de contraindre les produits créés depuis l'appli mobile concernant les numéros de lot/série.
+MobileCatDescription = Notes to display in mobile app near to the field «product description»
+MobileCatEnable = Use in mobile application
+MobileCatDisable = Do not use in mobile application
+
+PickupCantBeInFutureError = Pickup cant be in future.
+
+#
+PickupActionProcessing = End of input
+ConfirmPickupActionProcessing = Are you sure you want to change this pickup status to «Processing» ?
+PickupActionIncludeInStock = Insert in stock
+ConfirmPickupActionIncludeInStock = Are you sure you want to insert products in stocks and set the pickup as «in stock»?
+ConfirmPickupActionIncludeInStockBis = Are you sure you want to insert products in stocks and set the pickup as «Waiting signature»?
+PickupIncludeInStockOk = Products where inserted in stock
+PickupIncludeInStockMovementNotFoundError = An error occured. The movement was not found
+PickupIncludeInStockWrongBatchNumberNumber = Le nombre de numéros de lot/série ne correspond pas à la quantité
+PickupActionSign = Validate signature
+ConfirmPickupActionSign = Are you sure you want to set this pickup as signed?
+
+PickupActionScanLabels = Scanner des étiquettes
+#
+
+PickupUnitValue = Per unit
+
+PickupFixLine = Get product information
+PickupMissingBatch = Missing batch Number
+PickupMissingBatchGenerate = Cliquez pour les générer
+PickupTooManyBatch = Trop de numéros de Lot/Série
+DEEE = DEEE
+DEEEType = DEEE Type
+DEEETotal = DEEE total
+PickupTotalWeight = Total weight
+PickupTotalLength = Total length
+PickupTotalSurface = Total surface
+PickupTotalVolume = Total volume
+PickupTotalPiece = Total qty
+
+PickupProductLength = Length for 1 product
+PickupProductSurface = Surface for 1 product
+
+PBrand = Brand
+
+PickupNote = Notes lors de la collecte
+
+Permission469001 = View pickups
+Permission469002 = Create pickups, create third parties/product from the mobile application
+Permission469003 = Create/Update all Pickups
+Permission469004 = Delete pickups
+Permission469005 = Set pickups to «processing» state
+Permission469006 = Set pickups to «in stock» state, create associated stock movements
+Permission469007 = Set pickups to «signed» state
+Permission469008 = Configure the pickup module
+Permission469009 = Access to reports
+Permission469010 = Accéder aux écrans de correction des données
+
+PickupMailTopic = Pickup receipt __REF__
+
+PickupDictType = Pickup type
+
+MailToSendPickup = Pickup
+
+PickupModifyAllCat = Modify all
+
+PickupPrintLabel = Imprimer étiquettes
+PickupLabelPrefix1 = Lot :
+PickupLabelPrefix2 = N° Série:
+
+PickupPrintableLabelSearchTitle = Recherche par étiquette
+PickupPrintableLabelSearchHelp = Cette page est fournie par le module de Collecte, et vous permet de scanner les étiquettes imprimées pour retrouver les produits et lots associés. Vous pouvez scanner les codes-barres (1D et 2D) générés par le module de Collecte dans le champs ci-dessous, à raison d'un par ligne, puis lancer une recherche.
+PrintableSearchTransferMissingLines = Aucun mouvement
+PrintableSearchTransferConfirm = Confirmez-vous les opérations ci-dessous ?
+PrintableSearchTransferQtyMustBeOne = Le lot %s est unique, la quantité ne peut être supérieure à 1.
+
+PickupCorrectDataHelp = Les écrans de cette section permettent de détecter des incohérences dans les données, et de les corriger. Par exemple quand les contraintes données par un tag produit ne sont pas respectées.
+
+PickupCorrectDataResponsibleCat = Catégorie en cause
+PickupCorrectDataWantedStatusBatch = Valeur attendue
+PickupCorrectDataCorrectStatusBatch = Corriger la valeur
+
+PickupCorrectDataGenerateMissingBatch = Générer les numéros de Lot/Série manquants
+PickupCorrectDataGenerateMissingBatchConfirm = Confirmez-vous les opérations ci-dessous ?
+PickupCorrectDataGenerateMissingBatchMovLabel = Correction numéro de lot/série.
+
+PickupImportExportTitle = Import / Export
+PickupImportExportHelp = Cet écran permet d'exporter/importer des données. À utiliser avec précautions.
+PickupExport = Exporter
+PickupImport = Importer
+
+PickupScanLabelsLineAdded = Lignes ajoutées
+
+PickupSpecificMode = Modes spécifiques
+PICKUP_SPECIFIC_MODE = Mode
+PICKUP_SPECIFIC_MODETooltip = Cette option permet d'activer différents modes spécifiques développés pour certaines ressourceries. Laissez vide si vous n'êtes pas concerné.

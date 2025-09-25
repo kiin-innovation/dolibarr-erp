@@ -1,0 +1,11 @@
+#
+ModuleCollabtrackName = Collab track
+ModuleCollabtrackDesc = Il vous permet de voir en temps réel quels utilisateurs sont en train de consulter ou de modifier un document. Il améliore la collaboration en offrant une visibilité en direct sur l'accès aux documents partagés.
+CollabtrackSetup = Installation de Collabtrack
+Settings = Paramètres
+CollabtrackSetupPage = Page de configuration de Collabtrack
+NewSection = Nouvelle section
+About = A propos de
+CollabtrackAbout = A propos de Collabtrack
+CollabtrackAboutPage = Page d'accueil de Collabtrack
+CollabtrackArea = Accueil Collabtrack

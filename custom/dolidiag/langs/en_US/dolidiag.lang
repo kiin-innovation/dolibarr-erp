@@ -1,0 +1,68 @@
+# DoliDiag Module
+Module207213Name = DoliDiag
+Module207213Desc = System diagnostic module for Dolibarr
+
+# Admin page
+DoliDiagSetup = DoliDiag Setup
+Settings = Settings
+DoliDiag = System Diagnostic
+
+# Parameters
+Parameter = Parameter
+Value = Value
+Description = Description
+SystemInformation = System Information
+DolibarrInformation = Dolibarr Information
+ModuleInformation = Module Information
+DatabaseInformation = Database Information
+ErrorLogs = Error Logs
+SecurityStatus = Security Status
+ReportFormat = Report Format
+
+# Configuration
+RedactSensitiveData = Redact Sensitive Data
+RedactSensitiveDataDesc = When enabled, sensitive information will be hidden in the report
+RedactSensitiveDataDefault = Redact Sensitive Data by Default
+UserReportedIssue = User Reported Issue
+UserReportedIssueDesc = Describe any specific issues you are experiencing
+
+# Report sections
+SystemInfoNotIncluded = System information not included in report
+DolibarrInfoNotIncluded = Dolibarr information not included in report
+ModuleInfoNotIncluded = Module information not included in report
+DatabaseInfoNotIncluded = Database information not included in report
+SecurityStatusNotIncluded = Security status not included in report
+NoUserIssueProvided = No user issue provided
+NoRecommendations = No recommendations available
+
+# Actions & Messages
+Save = Save
+SetupSaved = Configuration saved
+SetupSaveFailed = Error while saving configuration
+GenerateReport = Generate Report
+ReportGenerated = Report generated successfully
+ReportDate = Report Date
+FileName = File Name
+Action = Action
+Download = Download
+Delete = Delete
+ConfirmDeleteReport = Are you sure you want to delete this report?
+ReportDeleted = Report successfully deleted
+NoReportsAvailable = No reports available
+ErrorSavingConst = Error while saving constant
+
+# Module related
+MissingModule = Missing module: %s
+EnableModule = Enable module %s for %s
+MissingPHPExtension = Missing PHP extension: %s
+InstallPHPExtension = Install PHP extension %s for %s
+
+# Errors
+ErrorLoadingTemplate = Error loading report template
+ErrorWritingPDF = Error writing PDF file
+ErrorWritingFile = Error writing file
+FileNotFound = File not found
+ErrorPDFGeneration = Error generating PDF
+
+# PDF report
+DoliDiagReport = DoliDiag Report

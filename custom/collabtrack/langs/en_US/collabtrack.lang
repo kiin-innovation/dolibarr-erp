@@ -1,0 +1,32 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleCollabtrackName'
+ModuleCollabtrackName = Collab track
+# Module description 'ModuleCollabtrackDesc'
+ModuleCollabtrackDesc = Allows you to see in real time which users are currently viewing or editing a document. It enhances collaboration by providing live visibility into shared document access.
+
+#
+# Admin page
+#
+CollabtrackSetup = Collabtrack setup
+Settings = Settings
+CollabtrackSetupPage = Collabtrack setup page
+NewSection=New section
+
+#
+# About page
+#
+About = About
+CollabtrackAbout = About Collabtrack
+CollabtrackAboutPage = Collabtrack about page
+
+#
+# Sample page
+#
+CollabtrackArea = Home Collabtrack
+
+

@@ -1,0 +1,1 @@
+[15-Dec-2024 10:37:58 UTC] PHP Warning:  mysqli::__construct(): (HY000/2002): Resource temporarily unavailable in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 269

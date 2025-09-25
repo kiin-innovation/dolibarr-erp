@@ -1,0 +1,107 @@
+# Copyright (C) 2020 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Generic
+#
+
+# Module label 'ModuleH2G2Name'
+ModuleH2G2Name = H2G2
+# Module description 'ModuleH2G2Desc'
+ModuleH2G2Desc = H2G2 description
+
+#
+# Admin page
+#
+H2G2Setup = H2G2 setup
+Settings = Settings
+H2G2SetupPage = H2G2 setup page
+H2G2_MYPARAM1 = My param 1
+H2G2_MYPARAM1Tooltip = My param 1 tooltip
+H2G2_MYPARAM2=My param 2
+H2G2_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+H2G2About = About H2G2
+H2G2AboutPage = H2G2 about page
+
+#
+# Sample page
+#
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
+
+#
+# v15.0.03
+#
+ContactUsPage = <span class="fas fa-headset"></span> Contact Us
+ContactUs = Contact Us
+ContactEvolution = A need / An evolution
+ContactBug = Report a bug
+
+#
+# v15.0.10
+#
+H2G2NewsTab = News Page
+H2H2NewsSetupExtrafieldsNotSaved = The addition of extra attributes for the new features did not work
+H2H2NewsSetupDicoNotSaved = Adding the dictionary for new items did not work
+H2G2NewsTab = News page
+H2G2NewsEvents = Events page for news
+H2G2NewsTitle = Title (Max. 128 characters)
+H2G2NewsContent = Content
+H2G2NewsAdded = The news has been added
+H2G2NewsNotAdded = The news has not been added
+
+#
+# v15.0.11
+#
+H2G2_DISABLE_VERSION_MODULES = Disable module version search
+H2G2_VERSION_MODULES_URL = URL of the module version search
+
+#
+# v15.0.12
+#
+H2G2MEBColoredExample = Basic button - Colored
+H2G2MEBUpDownExample = Basic button - Fold Up / Fold Down
+H2G2MEBCreateExample = Basic button - Create
+H2G2MEBDeleteExample = Basic button - Delete
+
+#
+# v15.1.00
+#
+H2G2MenuTheme = Theme QuaranteDeux
+H2G2ThemeTab = Theme
+H2G2NoFileFound = %s was not found
+
+#
+# v18.0.00
+#
+H2G2ThemeVersion = The theme is in version %s
+H2G2ThemeNotFound = The theme has not been found
+
+
+#
+# v19.0.00
+#
+H2G2_DISABLE_CHECK_LAST_VERSION = Disable checking for new versions of Code 42 modules

@@ -1,0 +1,49 @@
+[01-Dec-2024 03:40:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[01-Dec-2024 03:40:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[03-Dec-2024 06:10:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[13-Jun-2025 23:29:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[13-Jun-2025 23:29:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[13-Jun-2025 23:29:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410
+[13-Jun-2025 23:34:27 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php:410
+Stack trace:
+#0 /home/kigazebz/public_html/zeolf-erp/custom/externsite/core/modules/modexternsite.class.php(155): DoliDBMysqli->fetch_object(false)
+#1 /home/kigazebz/public_html/zeolf-erp/core/lib/admin.lib.php(1187): modexternsite->init()
+#2 /home/kigazebz/public_html/zeolf-erp/admin/modules.php(316): activateModule('modexternsite')
+#3 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 410

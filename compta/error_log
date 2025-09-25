@@ -1,0 +1,1 @@
+[06-Apr-2025 16:15:18 UTC] PHP Warning:  array_sum() expects parameter 1 to be array, string given in /home/kigazebz/public_html/zeolf-erp/compta/ajaxpayment.php on line 85

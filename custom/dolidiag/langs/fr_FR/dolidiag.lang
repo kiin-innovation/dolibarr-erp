@@ -1,0 +1,68 @@
+# DoliDiag Module
+Module207213Name = DoliDiag
+Module207213Desc = Module de diagnostic système pour Dolibarr
+
+# Admin page
+DoliDiagSetup = Configuration DoliDiag
+Settings = Paramètres
+DoliDiag = Diagnostic Système
+
+# Parameters
+Parameter = Paramètre
+Value = Valeur
+Description = Description
+SystemInformation = Informations Système
+DolibarrInformation = Informations Dolibarr
+ModuleInformation = Informations Modules
+DatabaseInformation = Informations Base de données
+ErrorLogs = Journaux d'erreurs
+SecurityStatus = Statut de sécurité
+ReportFormat = Format du Rapport
+
+# Configuration
+RedactSensitiveData = Masquer les données sensibles
+RedactSensitiveDataDesc = Lorsque activé, les informations sensibles seront masquées dans le rapport
+RedactSensitiveDataDefault = Masquer les données sensibles par défaut
+UserReportedIssue = Problème signalé par l'utilisateur
+UserReportedIssueDesc = Décrivez les problèmes spécifiques que vous rencontrez
+
+# Report sections
+SystemInfoNotIncluded = Informations système non incluses dans le rapport
+DolibarrInfoNotIncluded = Informations Dolibarr non incluses dans le rapport
+ModuleInfoNotIncluded = Informations des modules non incluses dans le rapport
+DatabaseInfoNotIncluded = Informations de la base de données non incluses dans le rapport
+SecurityStatusNotIncluded = Statut de sécurité non inclus dans le rapport
+NoUserIssueProvided = Aucun problème signalé par l'utilisateur
+NoRecommendations = Aucune recommandation disponible
+
+# Actions & Messages
+Save = Sauvegarder
+SetupSaved = Configuration sauvegardée
+SetupSaveFailed = Erreur lors de la sauvegarde
+GenerateReport = Générer un Rapport
+ReportGenerated = Rapport généré avec succès
+ReportDate = Date du Rapport
+FileName = Nom du Fichier
+Action = Action
+Download = Télécharger
+Delete = Supprimer
+ConfirmDeleteReport = Êtes-vous sûr de vouloir supprimer ce rapport ?
+ReportDeleted = Rapport supprimé avec succès
+NoReportsAvailable = Aucun rapport disponible
+ErrorSavingConst = Erreur lors de la sauvegarde de la constante
+
+# Module related
+MissingModule = Module manquant : %s
+EnableModule = Activer le module %s pour %s
+MissingPHPExtension = Extension PHP manquante : %s
+InstallPHPExtension = Installer l'extension PHP %s pour %s
+
+# Errors
+ErrorLoadingTemplate = Erreur lors du chargement du modèle de rapport
+ErrorWritingPDF = Erreur lors de l'écriture du fichier PDF
+ErrorWritingFile = Erreur lors de l'écriture du fichier
+FileNotFound = Fichier non trouvé
+ErrorPDFGeneration = Erreur lors de la génération du PDF
+
+# PDF report
+DoliDiagReport = Rapport DoliDiag

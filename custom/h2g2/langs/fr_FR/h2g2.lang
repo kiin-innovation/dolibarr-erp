@@ -1,0 +1,233 @@
+# Copyright (C) 2020 SuperAdmin
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+#
+# Générique
+#
+
+# Module label 'ModuleH2G2Name'
+ModuleH2G2Name = H2G2
+# Module description 'ModuleH2G2Desc'
+ModuleH2G2Desc = Librairie utilisé par les modules Code 42
+
+#
+# Page d'administration
+#
+H2G2Setup = Configuration du module H2G2
+Settings = Réglages
+H2G2SetupPage = Page de configuration du module H2G2
+
+#
+# Page À propos
+#
+About = À propos
+H2G2About = À propos de H2G2
+H2G2AboutPage = Page à propos de H2G2
+
+#
+# Query Builder
+#
+H2G2WarningNoEntityCheck = Aucun check d'entité dans votre requête
+
+#
+# Information page
+#
+InformationPage = <span class="fas fa-info-circle"></span> Informations technique
+TecInformation = Informations techniques
+Infodolibarr = Infos dolibarr
+Infobrowser = Infos navigateur
+Infoos = Infos OS
+Infowebserver = Infos serveur web
+Infophp = Infos PHP
+Infodb = Infos BDD
+Infomodule = Infos module
+InformationBoxVersion = Version
+InformationBoxInitialVersion = Version d'installation
+InformationBoxName = Nom
+InformationBoxPilote = Pilote
+InformationBoxOs = Os
+InformationBoxUserAgent = User Agent
+CopyInformation = Copier les informations
+InformationBoxScreen = Ecran
+Copied = Copié
+
+#
+# v13.1.0
+#
+H2G2NewModule = Nouvelle version à activer
+H2G2UpdateModule = Une nouvelle version est disponible pour le téléchargement
+H2G2HelpMenu = Assistance
+H2G2SetupMenu = Configuration
+H2G2DocumentationMenu = Documentation
+H2G2NewsMenu = Nouveautés
+MigrationPageLoadingModuleError = Le module ne peut être chargé
+MigrationPageExtendError = Le module n'étend pas la classe "TheGalaxy"
+MigrationManagerLoadingError = Le gestionnaire de migration a rencontré une erreur
+MigrationManager = Gestion des migrations
+Execute = Exécuter
+MigrationRollbackPreview = Prévisualisation du rollback vers la version %s
+MigrationPreviewDesc = Les requêtes suivantes seront exécutées :
+ActionPreview = Prévisualiser
+Key = Clé
+ModuleName = Nom du module
+DBModuleVersion = Version installée (Base de donnée)
+InstalledModuleVersion = Version du module
+ModuleVersionList = Liste des versions disponibles
+RollbackTo = Rollback vers la version %s
+UpdateTo = Mise à jour vers la version %s
+NoVersionToRollbackTo = Aucune version précédente disponible
+NoVersionToUpdateTo = Aucune version suivante disponible
+MigrationExecuted = La migration a été effectuée. Le module est en version %s.
+MigrationExecutionError = La migration a échoué pour passer en version %s.
+MigrationUpdatePreview = Prévisualisation de la mise à jour vers la version %s
+LoadQueriesError = Les requêtes n'ont pas pu être chargées
+InformationBoxModuleVersion = Version
+InformationBoxInstalledVersion = Version installée (Base de donnée)
+MustBeAdmin = Seul un administrateur peut exécuter cette action
+MigrationHistory = Historique des migrations
+MPActionCreate = Création
+MPActionUpdate = Mise à jour
+MPActionRollback = Retour en arrière
+H2G2ModuleNotActivated = Le module H2G2 n'est pas activé et est requis
+
+#
+# v13.1.10
+#
+InformationBoxLastActivation = Date de la dernière activation
+InformationBoxDisplayError = Paramètre display_errors
+InformationBoxMainUrl = URL racine (dolibarr_main_url_root)
+InformationBoxMainUrlAlt = URL racine alt (dolibarr_main_url_root_alt)
+InformationBoxMainDocument = Répertoire racine des pages web (dolibarr_main_document_root)
+InformationBoxMainDocumentAlt = Répertoire racine des pages web alt (dolibarr_main_document_root_alt)
+InformationBoxMainData = Répertoire racine des fichiers de données (dolibarr_main_data_root)
+InformationBoxMainId = ID unique de l'instance (dolibarr_main_instance_unique_id)
+MigrationPageTitle = Gestion des migrations
+RefreshTo = Réinitialisation de la version initiale %s
+MigrationResetPreview = Prévisualisation de la réinitialisation de la version %s
+MPActionReset = Réinitialisation
+
+#
+# v13.1.20
+#
+H2G2MassactionResume = Résumé de l'exécution de l'action de masse <b>%s</b>
+H2G2MassactionLabel = Action de masse '%s' exécutée
+H2G2MassactionUrl = Url de lancement : <b>%s</b>
+H2G2MassactionTotalSelected = Nombre de lignes sélectionnées : <b>%s</b>
+H2G2MassactionTotalPerBatch = Nombre de lignes traitées par lot : <b>%s</b>
+H2G2MassactionTotalBatch = Nombre de lots envoyés : <b>%s</b>
+H2G2MassactionTotalBatchError = Nombre de lots en erreur : <b><span style="color: red">%s</span></b>
+H2G2MassactionTotalBatchSuccess = Nombre de lots sans erreur : <b><span style="color: green">%s</span></b>
+H2G2MassactionBatchWithId = Lot contenant les ids suivants
+PleaseWait = Merci de patienter
+ExecutingMassaction = L'action de masse est en cours d'exécution
+MassactionBatchResume = Résumé de l'exécution de l'action de masse
+MassactionTotalSelected = Nb objets sélectionnés
+MassactionTotalPerBatch = Nb objets par lots
+MassactionTotalBatch = Nb lots
+MassactionTotalBatchSuccess = Nb lots en succès
+MassactionTotalBatchError = Nb lots en erreur
+MassactionInternalError = Erreur interne avec le message suivant :
+H2G2_DISABLE_MODULE_WIZARD = Désactiver le robot h2g2
+Yes = Oui
+No = Non
+H2G2UpdateAvailable = Une mise à jour du module "<i>%s</i>" doit être installée.
+H2G2UpdateAvailableReactivate = Veuillez réactiver ce module.
+
+#
+# v15.0.00
+#
+H2G2_INCLUDE_DEV_LIB = Inclure la librairie de dev
+H2G2_INCLUDE_DEV_LIBTooltip = Désactiver cette option dans le cas d'une production (Option développeur seulement).
+H2G2Copy = Copier
+H2G2Copied = Copié !
+H2G2NotCopied = Non copié...
+H2G2MenuDocumentation = <i class="fab fa-codepen"></i> Composants
+H2G2MenuMultientryButton = Bouton multi-entrées
+H2G2MEBBasicFAExample = Bouton basique - Font Awesome
+H2G2MEBBasicMIExample = Bouton basique - Material icons
+H2G2MEBConceptExample = Bouton de description
+H2G2WithoutActionExample = Bouton "Without Action"
+H2G2GPExample = Bouton basique - GESTION PARC
+MultientityButtonTitle = Documentation composant : Les boutons multi-entrées
+
+#
+# v15.0.03
+#
+ContactUsPage = <span class="fas fa-headset"></span> Nous contacter
+ContactUs = Nous contacter
+ContactEvolution = Un besoin / Une évolution
+ContactBug = Signaler un bug
+contactUsMessage = Chez Code 42, notre priorité est de vous fournir des outils plus efficaces et simples d'usages. Nous sommes dans l'attente de vos retours (demande d'évolutions et remontés de défauts).
+
+#
+# v15.0.10
+#
+H2H2NewsSetupExtrafieldsNotSaved = L'ajout des attributs supplémentaires pour les nouveautés n'a pas fonctionnée
+H2H2NewsSetupDicoNotSaved = L'ajout du dictionnaire pour les nouveautés n'a pas fonctionnée
+H2G2NewsTab = Page des nouveautés
+H2G2NewsEvents = Page des évènements pour les nouveautés
+H2G2NewsTitle = Titre (Max. 128 caractères)
+H2G2NewsContent = Contenu
+H2G2NewsAdded = La nouveauté a bien été ajoutée
+H2G2NewsNotAdded = La nouveauté n'a pas été ajoutée
+
+#
+# v15.0.11
+#
+H2G2_DISABLE_VERSION_MODULES = Désactiver la recherche de versions des modules
+H2G2_VERSION_MODULES_URL = URL de la recherche de versions des modules
+
+#
+# v15.0.12
+#
+H2G2MEBColoredExample = Bouton basique - Coloré
+H2G2MEBUpDownExample = Bouton basique - Dépliant vers le Haut / Dépliant vers le Bas
+H2G2MEBCreateExample = Bouton basique - Création
+H2G2MEBDeleteExample = Bouton basique - Suppression
+
+#
+# v15.1.00
+#
+H2G2MenuTheme = Thème Quarantedeux
+H2G2ThemeTab = Thème
+H2G2NoFileFound = %s n'a pas été trouvé
+
+#
+# v18.0.00
+#
+H2G2ThemeVersion = Le thème est en version %s
+H2G2ThemeNotFound = Le thème n'a pas été trouvé.
+
+#
+# v19.0.00
+#
+H2G2_DISABLE_CHECK_LAST_VERSION = Désactiver la recherche des nouvelles versions des modules Code 42
+
+#
+# v20.0.00
+#
+H2G2NewsLevel = Niveau de la News
+H2G2NewsLevelSuccess = Nouvelle
+H2G2NewsLevelInformation = Informatif
+H2G2NewsLevelWarning = Attention
+H2G2NewsLevelImportant = Importante
+H2G2NewsSucc = Nouveauté - Nouvelle
+H2G2NewsInfo = Nouveauté - Informative
+H2G2NewsWarn = Nouveauté - Attention
+H2G2NewsDang = Nouveauté - Importante
+H2G2NewsArticle = Article LaReponse
+H2G2PopupTitle = Boite de Dialogue
+H2G2TopBarTitle = Information Barre Supérieure
+H2G2_CLPBRD_FUNCTION = Activer la fonction "Copier au Clic"

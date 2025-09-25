@@ -1,0 +1,42 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleFMSName'
+ModuleFMSName = FMS
+# Module description 'ModuleFMSDesc'
+ModuleFMSDesc = FMS description
+
+#
+# Admin page
+#
+FMSSetup = FMS setup
+Settings = Settings
+FMSSetupPage = FMS setup page
+NewSection=New section
+FMS_MYPARAM1 = My param 1
+FMS_MYPARAM1Tooltip = My param 1 tooltip
+FMS_MYPARAM2=My param 2
+FMS_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+FMSAbout = About FMS
+FMSAboutPage = FMS about page
+
+#
+# Sample page
+#
+FMSArea = Home FMS
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description

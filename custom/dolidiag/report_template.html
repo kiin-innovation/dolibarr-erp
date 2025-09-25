@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>DoliDiag Diagnostic Report</title>
+    <meta charset="utf-8">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        h1 { color: #2E4053; }
+        h2 { color: #34495E; border-bottom: 1px solid #D5DBDB; }
+        .noborder { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+        .noborder th { background: #EAECEE; padding: 8px; text-align: left; }
+        .noborder td { padding: 8px; border-bottom: 1px solid #D5DBDB; }
+        .liste_titre { background: #D5DBDB; }
+        .signature { margin-top: 40px; border-top: 1px solid #D5DBDB; padding-top: 10px; font-size: 12px; color: #7F8C8D; text-align: center; }
+    </style>
+</head>
+<body>
+    <h1>DoliDiag Diagnostic Report</h1>
+    <p>Instance: {INSTANCE_NAME}</p>
+    <p>Generated: {TIMESTAMP}</p>
+
+    <h2>System Information</h2>
+    {SYSTEM_INFO}
+
+    <h2>Dolibarr Information</h2>
+    {DOLIBARR_INFO}
+
+    <h2>Module Inventory</h2>
+    {MODULE_INFO}
+
+    <h2>Database Information</h2>
+    {DATABASE_INFO}
+
+    <h2>Security Status</h2>
+    {SECURITY_STATUS}
+
+    <h2>User-Reported Issue</h2>
+    {USER_ISSUE}
+
+    <h2>Support Recommendations</h2>
+    {RECOMMENDATIONS}
+    
+    {SIGNATURE}
+</body>
+</html>

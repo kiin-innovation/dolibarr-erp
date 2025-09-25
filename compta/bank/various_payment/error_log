@@ -1,0 +1,28 @@
+[28-Nov-2024 06:37:22 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[30-Nov-2024 16:23:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[30-Nov-2024 16:23:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[30-Nov-2024 16:26:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[30-Nov-2024 16:26:51 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[02-Dec-2024 20:29:01 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685
+[04-Jan-2025 09:43:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function length_accounta() in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php:685
+Stack trace:
+#0 {main}
+  thrown in /home/kigazebz/public_html/zeolf-erp/compta/bank/various_payment/card.php on line 685

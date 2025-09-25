@@ -1,0 +1,17 @@
+------------------------------------------------------
+2.3.0 compared to 2.2.0
+------------------------------------------------------
+FIX : HTML entities well displyaed in the description of an event in the send notification
+FIX : Family = Artaban
+FIX : Undefined variables when creating a thirparty and others item
+FIX : Getting global MAIN_MAIL_ERRORS_TO when sending a notification
+FIX : Warning: Undefined variable $checkbox_1 when creating a template
+
+------------------------------------------------------
+2.2.0 compared to 2.1.2
+------------------------------------------------------
+ADD : Notification to commercial when creating a thirdparty
+FIX : Blank page when modifying or deleting a thirdparty while inform commercial enabled
+FIX : Informations concerning commercials on all events concerning the events
+FIX : Description on all events concerning the events except description on delete
+FIX : Set-up not saved when not checking the checkbox to inform the commercial

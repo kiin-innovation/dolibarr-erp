@@ -1,0 +1,7 @@
+[14-Aug-2025 08:31:29 UTC] PHP Warning:  mysqli::__construct(): (HY000/1040): Too many connections in /home/kigazebz/public_html/zeolf-erp/core/db/mysqli.class.php on line 269
+[08-Sep-2025 08:55:51 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_d36a63b1d374138f70f60ba997d22581, O_RDWR) failed: Disk quota exceeded (122) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73
+[08-Sep-2025 08:55:51 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73
+[08-Sep-2025 08:58:35 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_d36a63b1d374138f70f60ba997d22581, O_RDWR) failed: Disk quota exceeded (122) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73
+[08-Sep-2025 08:58:35 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73
+[08-Sep-2025 08:59:58 UTC] PHP Warning:  session_start(): open(/opt/alt/php74/var/lib/php/session/sess_d36a63b1d374138f70f60ba997d22581, O_RDWR) failed: Disk quota exceeded (122) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73
+[08-Sep-2025 08:59:58 UTC] PHP Warning:  session_start(): Failed to read session data: files (path: /opt/alt/php74/var/lib/php/session) in /home/kigazebz/public_html/zeolf-erp/filefunc.inc.php on line 73

@@ -1,0 +1,42 @@
+# Translation file
+
+#
+# Generic
+#
+
+# Module label 'ModuleFileManagerName'
+ModuleFileManagerName = FileManager
+# Module description 'ModuleFileManagerDesc'
+ModuleFileManagerDesc = FileManager description
+
+#
+# Admin page
+#
+FileManagerSetup = FileManager setup
+Settings = Settings
+FileManagerSetupPage = FileManager setup page
+NewSection=New section
+FILEMANAGER_MYPARAM1 = My param 1
+FILEMANAGER_MYPARAM1Tooltip = My param 1 tooltip
+FILEMANAGER_MYPARAM2=My param 2
+FILEMANAGER_MYPARAM2Tooltip=My param 2 tooltip
+
+
+#
+# About page
+#
+About = About
+FileManagerAbout = About FileManager
+FileManagerAboutPage = FileManager about page
+
+#
+# Sample page
+#
+FileManagerArea = Home FileManager
+MyPageName = My page name
+
+#
+# Sample widget
+#
+MyWidget = My widget
+MyWidgetDescription = My widget description
