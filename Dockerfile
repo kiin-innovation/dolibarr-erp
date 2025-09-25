@@ -21,6 +21,10 @@ COPY . /var/www/html/
 # Fix permissions
 RUN chown -R www-data:www-data /var/www/html
 
+# Ensure conf directory is writable
+RUN chmod -R 775 /var/www/html/conf
+
+
 # Expose HTTP
 EXPOSE 80
 
